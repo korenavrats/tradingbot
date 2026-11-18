@@ -408,7 +408,8 @@ if __name__ == "__main__":
         "XPOF": {"levels": [4.37, 4.48, 4.8, 5.08], "interval": "15m"},
         "BBIO": {"levels": [73.57, 76.94, 79.91], "interval": "15m"},
         "CLOV": {"levels": [4.18, 4.52, 4.86], "interval": "15m"},
-        "CSGP": {"levels": [26.78, 28.8, 31.65, 34.38], "interval": "1h"}
+        "CSGP": {"levels": [26.78, 28.8, 31.65, 34.38], "interval": "1h"},
+        "DAL": {"levels": [86.10, 84], "interval": "5m"}
     }
 
     bot = LiveMultiIntervalBot(portfolio_cash=MY_PORTFOLIO_CASH, assets_config=ASSETS_TO_TRADE)
