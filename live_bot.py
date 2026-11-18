@@ -31,7 +31,7 @@ RECEIVER_EMAIL = os.environ.get('RECEIVER_EMAIL', '')
 POSITION_PCT = 0.025          # גודל פוזיציה מהתיק
 MAX_OPEN_POSITIONS = 6        # תקרת חשיפה: 6 * 2.5% = 15%
 MAX_RISK_PCT = 1.2            # סיכון התחלתי מקסימלי (%)
-MIN_RR = 1.0                  # יחס סיכון/סיכוי מינימלי (0 = ביטול)
+MIN_RR = 2.5                  # יחס סיכון/סיכוי מינימלי (0 = ביטול)
 PROB_THRESHOLD = 0.42
 LEVEL_PROXIMITY = 0.008
 MIN_SIGNAL_SAMPLES = 8        # מינימום דוגמאות חיוביות לאימון, אחרת לא נכנסים
