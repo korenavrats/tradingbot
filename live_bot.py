@@ -605,6 +605,12 @@ if __name__ == '__main__':
       'CLOV': {'levels': [4.18, 4.52, 4.86], 'interval': '15m'},
       'CSGP': {'levels': [26.78, 28.8, 31.65, 34.38], 'interval': '1h'},
       'DAL': {'levels': [86.10, 84], 'interval': '15m'},
+      'DFH': {'levels': [9.69, 10.65, 11.19], 'interval': '15m'},
+      'BTCUSD': {'levels': [62018, 63272, 65571], 'interval': '15m'},
+      'SOLUSD': {'levels': [72.92, 74.76, 76.12], 'interval': '15m'},
+      'EBAY': {'levels': [104.84, 117.47, 124.52], 'interval': '1h'},
+      'EIKN': {'levels': [5.09, 6], 'interval': '15m'},
+      'EWBC': {'levels': [106.06, 126.89, 127.81], 'interval': '15m'},
   }
 
   bot = LiveMultiIntervalBot(
