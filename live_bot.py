@@ -611,6 +611,12 @@ if __name__ == '__main__':
       'EBAY': {'levels': [104.84, 117.47, 124.52], 'interval': '1h'},
       'EIKN': {'levels': [5.09, 6], 'interval': '15m'},
       'EWBC': {'levels': [106.06, 126.89, 127.81], 'interval': '15m'},
+      'BIIB': {'levels': [246.5, 255], 'interval': '15m'},
+      'EL': {'levels': [103.75, 109.05, 112.6], 'interval': '15m'},
+      'GO': {'levels': [11.75, 12.21, 13.11], 'interval': '1h'},
+      'MNDY': {'levels': [70.8, 96.93], 'interval': '4h'},
+      'RS': {'levels': [379.42, 416.35], 'interval': '1h'},
+      'SPT': {'levels': [9.08, 10.08, 11.75], 'interval': '15m'},
   }
 
   bot = LiveMultiIntervalBot(
